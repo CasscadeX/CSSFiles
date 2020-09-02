@@ -18,3 +18,27 @@ $colors: (
     gold:$gold,
     silver:$silver
 );
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+@each $name,$color in $colors{
+    .alert-#{$name}{
+        background-color: lighten($color,30);
+        border-color: darken($color, 10);
+        color: darken($color, 30);
+
+        hr{
+            border-top-color: darken($color, 20);
+        }
+        .alert-link{
+            color: darken($color, 20);
+            font-weight: bolder;
+        }
+    }
+}

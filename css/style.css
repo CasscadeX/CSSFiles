@@ -1,3 +1,281 @@
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-red {
+  background-color: #f49898;
+  border-color: #ad1313;
+  color: #510909;
+}
+
+.alert-red hr {
+  border-top-color: #7f0e0e;
+}
+
+.alert-red .alert-link {
+  color: #7f0e0e;
+  font-weight: bolder;
+}
+
+.alert-blue {
+  background-color: #98aef4;
+  border-color: #1337ad;
+  color: #091a51;
+}
+
+.alert-blue hr {
+  border-top-color: #0e297f;
+}
+
+.alert-blue .alert-link {
+  color: #0e297f;
+  font-weight: bolder;
+}
+
+.alert-green {
+  background-color: #61ef68;
+  border-color: #0c7811;
+  color: #031b04;
+}
+
+.alert-green hr {
+  border-top-color: #08490b;
+}
+
+.alert-green .alert-link {
+  color: #08490b;
+  font-weight: bolder;
+}
+
+.alert-yellow {
+  background-color: #f7f4a2;
+  border-color: #bdb610;
+  color: #5f5c08;
+}
+
+.alert-yellow hr {
+  border-top-color: #8e890c;
+}
+
+.alert-yellow .alert-link {
+  color: #8e890c;
+  font-weight: bolder;
+}
+
+.alert-white {
+  background-color: white;
+  border-color: #e6e6e6;
+  color: #b3b3b3;
+}
+
+.alert-white hr {
+  border-top-color: #cccccc;
+}
+
+.alert-white .alert-link {
+  color: #cccccc;
+  font-weight: bolder;
+}
+
+.alert-black {
+  background-color: #4d4d4d;
+  border-color: black;
+  color: black;
+}
+
+.alert-black hr {
+  border-top-color: black;
+}
+
+.alert-black .alert-link {
+  color: black;
+  font-weight: bolder;
+}
+
+.alert-orange {
+  background-color: #f7be8c;
+  border-color: #ab570c;
+  color: #4c2605;
+}
+
+.alert-orange hr {
+  border-top-color: #7c3f08;
+}
+
+.alert-orange .alert-link {
+  color: #7c3f08;
+  font-weight: bolder;
+}
+
+.alert-grey {
+  background-color: #96a5ab;
+  border-color: #343d41;
+  color: #070808;
+}
+
+.alert-grey hr {
+  border-top-color: #1d2325;
+}
+
+.alert-grey .alert-link {
+  color: #1d2325;
+  font-weight: bolder;
+}
+
+.alert-mustard {
+  background-color: #f7d8a0;
+  border-color: #bc7f0f;
+  color: #5d3f08;
+}
+
+.alert-mustard hr {
+  border-top-color: #8d5f0b;
+}
+
+.alert-mustard .alert-link {
+  color: #8d5f0b;
+  font-weight: bolder;
+}
+
+.alert-light-green {
+  background-color: #c1f294;
+  border-color: #5aa614;
+  color: #294b09;
+}
+
+.alert-light-green hr {
+  border-top-color: #42790e;
+}
+
+.alert-light-green .alert-link {
+  color: #42790e;
+  font-weight: bolder;
+}
+
+.alert-dark-green {
+  background-color: #93e436;
+  border-color: #294509;
+  color: black;
+}
+
+.alert-dark-green hr {
+  border-top-color: #0e1803;
+}
+
+.alert-dark-green .alert-link {
+  color: #0e1803;
+  font-weight: bolder;
+}
+
+.alert-light-blue {
+  background-color: #98e0f4;
+  border-color: #138cad;
+  color: #094251;
+}
+
+.alert-light-blue hr {
+  border-top-color: #0e677f;
+}
+
+.alert-light-blue .alert-link {
+  color: #0e677f;
+  font-weight: bolder;
+}
+
+.alert-light-yellow {
+  background-color: #f6f3bf;
+  border-color: #ccc31d;
+  color: #736e10;
+}
+
+.alert-light-yellow hr {
+  border-top-color: #9f9817;
+}
+
+.alert-light-yellow .alert-link {
+  color: #9f9817;
+  font-weight: bolder;
+}
+
+.alert-purple {
+  background-color: #cf80e7;
+  border-color: #6a1982;
+  color: #24082d;
+}
+
+.alert-purple hr {
+  border-top-color: #471157;
+}
+
+.alert-purple .alert-link {
+  color: #471157;
+  font-weight: bolder;
+}
+
+.alert-pink {
+  background-color: #fdd3e6;
+  border-color: #f2127a;
+  color: #96084a;
+}
+
+.alert-pink hr {
+  border-top-color: #c60b62;
+}
+
+.alert-pink .alert-link {
+  color: #c60b62;
+  font-weight: bolder;
+}
+
+.alert-cyan-green {
+  background-color: #d3fdf0;
+  border-color: #12f2ab;
+  color: #089669;
+}
+
+.alert-cyan-green hr {
+  border-top-color: #0bc68b;
+}
+
+.alert-cyan-green .alert-link {
+  color: #0bc68b;
+  font-weight: bolder;
+}
+
+.alert-gold {
+  background-color: #ffef99;
+  border-color: #ccac00;
+  color: #665600;
+}
+
+.alert-gold hr {
+  border-top-color: #998100;
+}
+
+.alert-gold .alert-link {
+  color: #998100;
+  font-weight: bolder;
+}
+
+.alert-silver {
+  background-color: white;
+  border-color: #a7a7a7;
+  color: #747474;
+}
+
+.alert-silver hr {
+  border-top-color: #8d8d8d;
+}
+
+.alert-silver .alert-link {
+  color: #8d8d8d;
+  font-weight: bolder;
+}
+
 .bg-red {
   background-color: #db1818;
 }
@@ -476,4 +754,8 @@
 
 .text-silver {
   color: #c0c0c0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
