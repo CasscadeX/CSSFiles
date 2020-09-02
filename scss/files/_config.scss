@@ -1,0 +1,13 @@
+
+// Base Colors
+$black : black;
+
+
+// Set text color based on background (for handling conditions which are not readable)
+@function set-text-color($bg-color, $text-color){
+    @if(lightness($bg-color > 70)){
+        @return darken($text-color, 10%);
+    }@else{
+        @return lighten($text-color, 10%);
+    }
+}
