@@ -1,7 +1,24 @@
 
 // Base Colors
-$black : black;
-
+$red:      #db1818;
+$blue:     #1846db;
+$green:    #11a618;
+$yellow:   #ebe315;
+$white:    #ffffff;
+$black :   #000000;
+$orange:   #db6f0f;
+$grey:     #4b585d;
+// Secondary Colors
+$tangerine:    #eb9f13;
+$light-green:  #73d419;
+$dark-green:   #5b9914;
+$light-blue:   #18b1db;
+$light-yellow: #e3da39;
+$pruple:       #8d21ad;
+$pink:         #f54295;
+$cyan-green:   #42f5bc;
+$gold:         #D4AF37;
+$silver:       #C0C0C0;
 
 // Set text color based on background (for handling conditions which are not readable)
 @function set-text-color($bg-color, $text-color){

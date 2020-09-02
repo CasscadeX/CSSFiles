@@ -1,2 +1,3 @@
 # CSSFiles
-Build on top of Bootstrap.
+A CSS library.
+
