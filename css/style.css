@@ -348,6 +348,127 @@
   background-color: #c0c0c0;
 }
 
+.button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.button-red {
+  background-color: #db1818;
+  border-color: #ad1313;
+  margin: 0.5rem;
+}
+
+.button-blue {
+  background-color: #1846db;
+  border-color: #1337ad;
+  margin: 0.5rem;
+}
+
+.button-green {
+  background-color: #11a618;
+  border-color: #0c7811;
+  margin: 0.5rem;
+}
+
+.button-yellow {
+  background-color: #ebe315;
+  border-color: #bdb610;
+  margin: 0.5rem;
+}
+
+.button-white {
+  background-color: #ffffff;
+  border-color: #e6e6e6;
+  margin: 0.5rem;
+}
+
+.button-black {
+  background-color: #000000;
+  border-color: black;
+  margin: 0.5rem;
+}
+
+.button-orange {
+  background-color: #db6f0f;
+  border-color: #ab570c;
+  margin: 0.5rem;
+}
+
+.button-grey {
+  background-color: #4b585d;
+  border-color: #343d41;
+  margin: 0.5rem;
+}
+
+.button-mustard {
+  background-color: #eb9f13;
+  border-color: #bc7f0f;
+  margin: 0.5rem;
+}
+
+.button-light-green {
+  background-color: #73d419;
+  border-color: #5aa614;
+  margin: 0.5rem;
+}
+
+.button-dark-green {
+  background-color: #44720f;
+  border-color: #294509;
+  margin: 0.5rem;
+}
+
+.button-light-blue {
+  background-color: #18b1db;
+  border-color: #138cad;
+  margin: 0.5rem;
+}
+
+.button-light-yellow {
+  background-color: #e3da39;
+  border-color: #ccc31d;
+  margin: 0.5rem;
+}
+
+.button-purple {
+  background-color: #8d21ad;
+  border-color: #6a1982;
+  margin: 0.5rem;
+}
+
+.button-pink {
+  background-color: #f54295;
+  border-color: #f2127a;
+  margin: 0.5rem;
+}
+
+.button-cyan-green {
+  background-color: #42f5bc;
+  border-color: #12f2ab;
+  margin: 0.5rem;
+}
+
+.button-gold {
+  background-color: #ffd700;
+  border-color: #ccac00;
+  margin: 0.5rem;
+}
+
+.button-silver {
+  background-color: #c0c0c0;
+  border-color: #a7a7a7;
+  margin: 0.5rem;
+}
+
 .m-1 {
   margin: 1rem;
 }
