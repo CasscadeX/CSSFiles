@@ -367,10 +367,18 @@
   margin: 0.5rem;
 }
 
+.button-red:hover {
+  background-color: #c41515;
+}
+
 .button-blue {
   background-color: #1846db;
   border-color: #1337ad;
   margin: 0.5rem;
+}
+
+.button-blue:hover {
+  background-color: #153fc4;
 }
 
 .button-green {
@@ -379,10 +387,18 @@
   margin: 0.5rem;
 }
 
+.button-green:hover {
+  background-color: #0f8f15;
+}
+
 .button-yellow {
   background-color: #ebe315;
   border-color: #bdb610;
   margin: 0.5rem;
+}
+
+.button-yellow:hover {
+  background-color: #d4cd12;
 }
 
 .button-white {
@@ -391,10 +407,18 @@
   margin: 0.5rem;
 }
 
+.button-white:hover {
+  background-color: #f2f2f2;
+}
+
 .button-black {
   background-color: #000000;
   border-color: black;
   margin: 0.5rem;
+}
+
+.button-black:hover {
+  background-color: black;
 }
 
 .button-orange {
@@ -403,10 +427,18 @@
   margin: 0.5rem;
 }
 
+.button-orange:hover {
+  background-color: #c3630d;
+}
+
 .button-grey {
   background-color: #4b585d;
   border-color: #343d41;
   margin: 0.5rem;
+}
+
+.button-grey:hover {
+  background-color: #404b4f;
 }
 
 .button-mustard {
@@ -415,10 +447,18 @@
   margin: 0.5rem;
 }
 
+.button-mustard:hover {
+  background-color: #d38f11;
+}
+
 .button-light-green {
   background-color: #73d419;
   border-color: #5aa614;
   margin: 0.5rem;
+}
+
+.button-light-green:hover {
+  background-color: #67bd16;
 }
 
 .button-dark-green {
@@ -427,10 +467,18 @@
   margin: 0.5rem;
 }
 
+.button-dark-green:hover {
+  background-color: #375b0c;
+}
+
 .button-light-blue {
   background-color: #18b1db;
   border-color: #138cad;
   margin: 0.5rem;
+}
+
+.button-light-blue:hover {
+  background-color: #159ec4;
 }
 
 .button-light-yellow {
@@ -439,10 +487,18 @@
   margin: 0.5rem;
 }
 
+.button-light-yellow:hover {
+  background-color: #e0d623;
+}
+
 .button-purple {
   background-color: #8d21ad;
   border-color: #6a1982;
   margin: 0.5rem;
+}
+
+.button-purple:hover {
+  background-color: #7c1d98;
 }
 
 .button-pink {
@@ -451,10 +507,18 @@
   margin: 0.5rem;
 }
 
+.button-pink:hover {
+  background-color: #f42a87;
+}
+
 .button-cyan-green {
   background-color: #42f5bc;
   border-color: #12f2ab;
   margin: 0.5rem;
+}
+
+.button-cyan-green:hover {
+  background-color: #2af4b3;
 }
 
 .button-gold {
@@ -463,10 +527,18 @@
   margin: 0.5rem;
 }
 
+.button-gold:hover {
+  background-color: #e6c200;
+}
+
 .button-silver {
   background-color: #c0c0c0;
   border-color: #a7a7a7;
   margin: 0.5rem;
+}
+
+.button-silver:hover {
+  background-color: #b3b3b3;
 }
 
 .m-1 {

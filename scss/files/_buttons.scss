@@ -19,6 +19,14 @@ $colors: (
     silver:$silver
 );
 
+@function set-hover-color($bg-color){
+    @if(lightness($bg-color > 70)){
+        @return darken($bg-color, 5%);
+    }@else{
+        @return lighten($bg-color, 5%);
+    }
+}
+
 .button{
     display: inline-block;
     font-weight: 400;
@@ -37,5 +45,8 @@ $colors: (
         background-color: $color;
         border-color: darken($color, 10);
         margin: 0.5rem;
+    }
+    .button-#{$name}:hover{
+        background-color: set-hover-color($color);
     }
 }
