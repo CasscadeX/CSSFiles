@@ -20,7 +20,7 @@ $colors: (
 );
 
 @function set-hover-color($bg-color){
-    @if(lightness($bg-color > 70)){
+    @if(lightness($bg-color) > 70){
         @return darken($bg-color, 5%);
     }@else{
         @return lighten($bg-color, 5%);

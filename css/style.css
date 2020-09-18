@@ -277,75 +277,75 @@
 }
 
 .bg-red {
-  background-color: #db1818;
+  background-color: #db1818 !important;
 }
 
 .bg-blue {
-  background-color: #1846db;
+  background-color: #1846db !important;
 }
 
 .bg-green {
-  background-color: #11a618;
+  background-color: #11a618 !important;
 }
 
 .bg-yellow {
-  background-color: #ebe315;
+  background-color: #ebe315 !important;
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .bg-black {
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 
 .bg-orange {
-  background-color: #db6f0f;
+  background-color: #db6f0f !important;
 }
 
 .bg-grey {
-  background-color: #4b585d;
+  background-color: #4b585d !important;
 }
 
 .bg-mustard {
-  background-color: #eb9f13;
+  background-color: #eb9f13 !important;
 }
 
 .bg-light-green {
-  background-color: #73d419;
+  background-color: #73d419 !important;
 }
 
 .bg-dark-green {
-  background-color: #44720f;
+  background-color: #44720f !important;
 }
 
 .bg-light-blue {
-  background-color: #18b1db;
+  background-color: #18b1db !important;
 }
 
 .bg-light-yellow {
-  background-color: #e3da39;
+  background-color: #e3da39 !important;
 }
 
 .bg-purple {
-  background-color: #8d21ad;
+  background-color: #8d21ad !important;
 }
 
 .bg-pink {
-  background-color: #f54295;
+  background-color: #f54295 !important;
 }
 
 .bg-cyan-green {
-  background-color: #42f5bc;
+  background-color: #42f5bc !important;
 }
 
 .bg-gold {
-  background-color: #ffd700;
+  background-color: #ffd700 !important;
 }
 
 .bg-silver {
-  background-color: #c0c0c0;
+  background-color: #c0c0c0 !important;
 }
 
 .button {
@@ -368,7 +368,7 @@
 }
 
 .button-red:hover {
-  background-color: #c41515;
+  background-color: #e72525;
 }
 
 .button-blue {
@@ -378,7 +378,7 @@
 }
 
 .button-blue:hover {
-  background-color: #153fc4;
+  background-color: #2553e7;
 }
 
 .button-green {
@@ -388,7 +388,7 @@
 }
 
 .button-green:hover {
-  background-color: #0f8f15;
+  background-color: #13bd1b;
 }
 
 .button-yellow {
@@ -398,7 +398,7 @@
 }
 
 .button-yellow:hover {
-  background-color: #d4cd12;
+  background-color: #ede62c;
 }
 
 .button-white {
@@ -418,7 +418,7 @@
 }
 
 .button-black:hover {
-  background-color: black;
+  background-color: #0d0d0d;
 }
 
 .button-orange {
@@ -428,7 +428,7 @@
 }
 
 .button-orange:hover {
-  background-color: #c3630d;
+  background-color: #ef7b15;
 }
 
 .button-grey {
@@ -438,7 +438,7 @@
 }
 
 .button-grey:hover {
-  background-color: #404b4f;
+  background-color: #56656b;
 }
 
 .button-mustard {
@@ -448,7 +448,7 @@
 }
 
 .button-mustard:hover {
-  background-color: #d38f11;
+  background-color: #eea92a;
 }
 
 .button-light-green {
@@ -458,7 +458,7 @@
 }
 
 .button-light-green:hover {
-  background-color: #67bd16;
+  background-color: #80e522;
 }
 
 .button-dark-green {
@@ -468,7 +468,7 @@
 }
 
 .button-dark-green:hover {
-  background-color: #375b0c;
+  background-color: #518912;
 }
 
 .button-light-blue {
@@ -478,7 +478,7 @@
 }
 
 .button-light-blue:hover {
-  background-color: #159ec4;
+  background-color: #25bde7;
 }
 
 .button-light-yellow {
@@ -488,7 +488,7 @@
 }
 
 .button-light-yellow:hover {
-  background-color: #e0d623;
+  background-color: #e6de4f;
 }
 
 .button-purple {
@@ -498,7 +498,7 @@
 }
 
 .button-purple:hover {
-  background-color: #7c1d98;
+  background-color: #9e25c2;
 }
 
 .button-pink {
@@ -508,7 +508,7 @@
 }
 
 .button-pink:hover {
-  background-color: #f42a87;
+  background-color: #f65aa3;
 }
 
 .button-cyan-green {
@@ -518,7 +518,7 @@
 }
 
 .button-cyan-green:hover {
-  background-color: #2af4b3;
+  background-color: #5af6c5;
 }
 
 .button-gold {
@@ -528,7 +528,7 @@
 }
 
 .button-gold:hover {
-  background-color: #e6c200;
+  background-color: #ffdb1a;
 }
 
 .button-silver {
@@ -539,6 +539,59 @@
 
 .button-silver:hover {
   background-color: #b3b3b3;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.125rem;
+}
+
+.card-head {
+  flex: 1 1 auto;
+}
+
+.card-title {
+  margin: 0.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.image-cover {
+  min-width: 20rem;
+  padding: 0.25rem;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.card-text {
+  padding: 0.5rem;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #2651d1;
+}
+
+.card-grp {
+  display: flex;
 }
 
 .m-1 {
@@ -950,5 +1003,5 @@
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
