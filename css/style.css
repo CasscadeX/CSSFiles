@@ -1,3 +1,9 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -931,77 +937,79 @@
 }
 
 .text-red {
-  color: #db1818;
+  color: #db1818 !important;
 }
 
 .text-blue {
-  color: #1846db;
+  color: #1846db !important;
 }
 
 .text-green {
-  color: #11a618;
+  color: #11a618 !important;
 }
 
 .text-yellow {
-  color: #ebe315;
+  color: #ebe315 !important;
 }
 
 .text-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .text-black {
-  color: #000000;
+  color: #000000 !important;
 }
 
 .text-orange {
-  color: #db6f0f;
+  color: #db6f0f !important;
 }
 
 .text-grey {
-  color: #4b585d;
+  color: #4b585d !important;
 }
 
 .text-mustard {
-  color: #eb9f13;
+  color: #eb9f13 !important;
 }
 
 .text-light-green {
-  color: #73d419;
+  color: #73d419 !important;
 }
 
 .text-dark-green {
-  color: #44720f;
+  color: #44720f !important;
 }
 
 .text-light-blue {
-  color: #18b1db;
+  color: #18b1db !important;
 }
 
 .text-light-yellow {
-  color: #e3da39;
+  color: #e3da39 !important;
 }
 
 .text-purple {
-  color: #8d21ad;
+  color: #8d21ad !important;
 }
 
 .text-pink {
-  color: #f54295;
+  color: #f54295 !important;
 }
 
 .text-cyan-green {
-  color: #42f5bc;
+  color: #42f5bc !important;
 }
 
 .text-gold {
-  color: #ffd700;
+  color: #ffd700 !important;
 }
 
 .text-silver {
-  color: #c0c0c0;
+  color: #c0c0c0 !important;
 }
 
-* {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+@media (max-width: 692px) {
+  .hide-sm {
+    display: none;
+  }
 }

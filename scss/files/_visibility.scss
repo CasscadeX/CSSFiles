@@ -1,0 +1,12 @@
+// hide-breakpoint => this means its not visible below this breakpoint
+// show-breakpoint => this means its visible only above this breakpoint
+// @media (min-width: 692px){
+//     .hide-sm{
+//         display: block;
+//     }
+// }
+@media (max-width: 692px){
+    .hide-sm{
+        display: none;
+    }
+}
